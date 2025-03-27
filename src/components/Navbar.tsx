@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 import Image from 'next/image';
 import { Button } from "@/components/ui/button"; // if you're using shadcn/ui, otherwise use a regular <button>
 import { Search, Filter } from "lucide-react"; // icons (optional)
@@ -20,7 +19,7 @@ const Navbar = () => {
                     <div className="flex w-[312px] h-[33px] gap[25px]">
                         <div className="flex items-center rounded-3xl border-2 border-[rgba(62,123,234,1)] w-[202px] h-8 px-[21px] py-2 gap-[10px] text-[rgba(227,235,241,0.3)]">
                             <Search className="text-[#00000099] mr-2" size={20} />
-                            <input className=""
+                            <input
                                 type="text"
                                 placeholder="Search..."
                                 className="w-full focus:outline-none text-[#00000099]"
